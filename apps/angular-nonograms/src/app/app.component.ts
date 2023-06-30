@@ -1,14 +1,12 @@
+import { GridComponent } from '@angular-nonograms/grid';
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [RouterModule, GridComponent],
   selector: 'angular-nonograms-root',
-  templateUrl: './app.component.html',
+  template: `<nono-grid />`,
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  title = 'angular-nonograms';
-}
+export class AppComponent {}
