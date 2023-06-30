@@ -1,0 +1,12 @@
+:host {
+  --cell-size: 100px;
+
+  display: grid;
+  gap: 0.25rem;
+  grid-template-columns: repeat(var(--grid-size, 3), var(--cell-size));
+  padding: 2rem;
+}
+
+.cell {
+  height: var(--cell-size);
+}
