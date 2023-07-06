@@ -52,7 +52,7 @@
     "nx": "16.5.0",
     "nx-cloud": "16.0.5",
     "postcss": "^8.4.25",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.0",
     "stylelint": "^15.10.1",
     "stylelint-config-prettier-scss": "^1.0.0",
     "stylelint-config-standard-scss": "^10.0.0",
