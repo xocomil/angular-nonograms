@@ -50,7 +50,7 @@
     "jest-environment-jsdom": "^29.4.1",
     "jest-preset-angular": "~13.1.0",
     "nx": "16.5.0",
-    "nx-cloud": "16.0.5",
+    "nx-cloud": "16.5.2",
     "postcss": "^8.4.25",
     "prettier": "^3.0.0",
     "stylelint": "^15.10.1",
